@@ -40,3 +40,5 @@
 2015-11-02 08:36:59 942 [Note] Event Scheduler: Loaded 0 events
 2015-11-02 08:36:59 942 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.6.25-0ubuntu0.15.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2015-11-02 08:53:15 942 [ERROR] /usr/sbin/mysqld: Table './wp@002dmartinhouse/wp_uolv_options' is marked as crashed and should be repaired
+2015-11-02 08:53:15 942 [Warning] Checking table:   './wp@002dmartinhouse/wp_uolv_options'

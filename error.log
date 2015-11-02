@@ -1,0 +1,42 @@
+151102 08:36:58 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2015-11-02 08:36:58 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-11-02 08:36:58 0 [Note] /usr/sbin/mysqld (mysqld 5.6.25-0ubuntu0.15.04.1) starting as process 942 ...
+2015-11-02 08:36:58 942 [Warning] Buffered warning: Changed limits: max_open_files: 1024 (requested 5000)
+
+2015-11-02 08:36:58 942 [Warning] Buffered warning: Changed limits: table_open_cache: 431 (requested 2000)
+
+2015-11-02 08:36:58 942 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+2015-11-02 08:36:58 942 [Note] Plugin 'FEDERATED' is disabled.
+2015-11-02 08:36:58 942 [ERROR] Function 'innodb' already exists
+2015-11-02 08:36:58 942 [Warning] Couldn't load plugin named 'innodb' with soname 'ha_innodb.so'.
+2015-11-02 08:36:58 942 [ERROR] Function 'federated' already exists
+2015-11-02 08:36:58 942 [Warning] Couldn't load plugin named 'federated' with soname 'ha_federated.so'.
+2015-11-02 08:36:58 942 [ERROR] Function 'blackhole' already exists
+2015-11-02 08:36:58 942 [Warning] Couldn't load plugin named 'blackhole' with soname 'ha_blackhole.so'.
+2015-11-02 08:36:58 942 [ERROR] Function 'archive' already exists
+2015-11-02 08:36:58 942 [Warning] Couldn't load plugin named 'archive' with soname 'ha_archive.so'.
+2015-11-02 08:36:58 942 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-11-02 08:36:58 942 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-11-02 08:36:58 942 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-11-02 08:36:58 942 [Note] InnoDB: Memory barrier is not used
+2015-11-02 08:36:58 942 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-11-02 08:36:58 942 [Note] InnoDB: Using Linux native AIO
+2015-11-02 08:36:58 942 [Note] InnoDB: Using CPU crc32 instructions
+2015-11-02 08:36:58 942 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2015-11-02 08:36:59 942 [Note] InnoDB: Completed initialization of buffer pool
+2015-11-02 08:36:59 942 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-11-02 08:36:59 942 [Note] InnoDB: The log sequence numbers 54801973 and 54801973 in ibdata files do not match the log sequence number 87402398 in the ib_logfiles!
+2015-11-02 08:36:59 942 [Note] InnoDB: Database was not shutdown normally!
+2015-11-02 08:36:59 942 [Note] InnoDB: Starting crash recovery.
+2015-11-02 08:36:59 942 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2015-11-02 08:36:59 942 [Note] InnoDB: Restoring possible half-written data pages 
+2015-11-02 08:36:59 942 [Note] InnoDB: from the doublewrite buffer...
+2015-11-02 08:36:59 942 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-11-02 08:36:59 942 [Note] InnoDB: Waiting for purge to start
+2015-11-02 08:36:59 942 [Note] InnoDB: 5.6.25 started; log sequence number 87402398
+2015-11-02 08:36:59 942 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2015-11-02 08:36:59 942 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2015-11-02 08:36:59 942 [Note] Server socket created on IP: '127.0.0.1'.
+2015-11-02 08:36:59 942 [Note] Event Scheduler: Loaded 0 events
+2015-11-02 08:36:59 942 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.6.25-0ubuntu0.15.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
